@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'express-generator' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json carMoveSimulator@1.0.0 No description
+5 warn package.json carMoveSimulator@1.0.0 No repository field.
+6 warn package.json carMoveSimulator@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'express-generator', null ]
+9 verbose cache add name=undefined spec="express-generator" args=["express-generator",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'express-generator',
+10 verbose parsed url   path: 'express-generator',
+10 verbose parsed url   href: 'express-generator' }
+11 silly lockFile 198a68d8-express-generator express-generator
+12 verbose lock express-generator /Users/saichangchoon/.npm/198a68d8-express-generator.lock
+13 silly lockFile 198a68d8-express-generator express-generator
+14 silly lockFile 198a68d8-express-generator express-generator
+15 verbose addNamed [ 'express-generator', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile bd41e3d3-express-generator express-generator@
+18 verbose lock express-generator@ /Users/saichangchoon/.npm/bd41e3d3-express-generator.lock
+19 silly addNameRange { name: 'express-generator', range: '*', hasData: false }
+20 verbose request where is /express-generator
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id b0a086683e1663c0
+23 verbose url raw /express-generator
+24 verbose url resolving [ 'https://registry.npmjs.org/', './express-generator' ]
+25 verbose url resolved https://registry.npmjs.org/express-generator
+26 verbose request where is https://registry.npmjs.org/express-generator
+27 info trying registry request attempt 1 at 14:59:37
+28 verbose etag "61X94LQDRI8SL8GGGC5JKBV6M"
+29 http GET https://registry.npmjs.org/express-generator
+30 http 200 https://registry.npmjs.org/express-generator
+31 silly registry.get cb [ 200,
+31 silly registry.get   { date: 'Mon, 23 Feb 2015 06:59:40 GMT',
+31 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+31 silly registry.get     etag: '"9LEDNBUQFES5NAC1VKJ7XDLQ3"',
+31 silly registry.get     'content-type': 'application/json',
+31 silly registry.get     'cache-control': 'max-age=60',
+31 silly registry.get     'content-length': '21724',
+31 silly registry.get     'accept-ranges': 'bytes',
+31 silly registry.get     via: '1.1 varnish',
+31 silly registry.get     age: '0',
+31 silly registry.get     'x-served-by': 'cache-hk91-HKG',
+31 silly registry.get     'x-cache': 'HIT',
+31 silly registry.get     'x-cache-hits': '1',
+31 silly registry.get     'x-timer': 'S1424674780.112721,VS0,VE228',
+31 silly registry.get     vary: 'Accept',
+31 silly registry.get     'keep-alive': 'timeout=10, max=50',
+31 silly registry.get     connection: 'Keep-Alive' } ]
+32 silly addNameRange number 2 { name: 'express-generator', range: '*', hasData: true }
+33 silly addNameRange versions [ 'express-generator',
+33 silly addNameRange   [ '1.0.0',
+33 silly addNameRange     '3.0.0',
+33 silly addNameRange     '4.0.0',
+33 silly addNameRange     '4.2.0',
+33 silly addNameRange     '4.8.0',
+33 silly addNameRange     '4.9.0',
+33 silly addNameRange     '4.10.0',
+33 silly addNameRange     '4.11.0',
+33 silly addNameRange     '4.11.1',
+33 silly addNameRange     '4.11.2' ] ]
+34 verbose addNamed [ 'express-generator', '4.11.2' ]
+35 verbose addNamed [ '4.11.2', '4.11.2' ]
+36 silly lockFile 7d8371f1-express-generator-4-11-2 express-generator@4.11.2
+37 verbose lock express-generator@4.11.2 /Users/saichangchoon/.npm/7d8371f1-express-generator-4-11-2.lock
+38 silly lockFile 67ebb57a-tor-express-generator-4-11-2-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+39 verbose lock https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz /Users/saichangchoon/.npm/67ebb57a-tor-express-generator-4-11-2-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz',
+40 verbose addRemoteTarball   'f8c78730ca07c191129f50471b401786c26ebbc5' ]
+41 info retry fetch attempt 1 at 14:59:41
+42 verbose fetch to= /var/folders/b0/grx_hdnj21lgr6f5bxly1jwc0000gn/T/npm-66778-dUtPHUZR/registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+43 http GET https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+44 http 200 https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+45 silly lockFile 67ebb57a-tor-express-generator-4-11-2-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+46 silly lockFile 67ebb57a-tor-express-generator-4-11-2-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+47 silly lockFile 7d8371f1-express-generator-4-11-2 express-generator@4.11.2
+48 silly lockFile 7d8371f1-express-generator-4-11-2 express-generator@4.11.2
+49 silly lockFile bd41e3d3-express-generator express-generator@
+50 silly lockFile bd41e3d3-express-generator express-generator@
+51 error Error: EACCES, mkdir '/Users/saichangchoon/.npm/express-generator/4.11.2'
+51 error  { [Error: EACCES, mkdir '/Users/saichangchoon/.npm/express-generator/4.11.2']
+51 error   errno: 3,
+51 error   code: 'EACCES',
+51 error   path: '/Users/saichangchoon/.npm/express-generator/4.11.2',
+51 error   parent: 'carMoveSimulator' }
+52 error Please try running this command again as root/Administrator.
+53 error System Darwin 13.4.0
+54 error command "node" "/usr/local/bin/npm" "install" "express-generator"
+55 error cwd /Library/WebServer/Documents/carMoveSimulator
+56 error node -v v0.10.35
+57 error npm -v 1.4.28
+58 error path /Users/saichangchoon/.npm/express-generator/4.11.2
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/Users/saichangchoon/.npm/express-generator/4.11.2'
+62 verbose exit [ 3, true ]
